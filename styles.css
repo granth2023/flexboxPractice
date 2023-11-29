@@ -78,9 +78,17 @@ p {
     padding-top: 2vw;
 }
 
-#stars{}
+#stars {
+    width: 40%;
+}
 
-main{}
+main {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 1fr 1fr 0.7fr;
+    gap: 0px 0px;
+}
 
 button{}
 
