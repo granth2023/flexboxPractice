@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: Helvetica;
+    background-color: rgb(255,255,255);
+    color: rgb(80,80,80);
+    text-align: center;
+}
+
+h1 {
+    font-size: 9vw;
+}
+
+h2 {}
+
+h3{}
+
+.rating{}
+
+#name{}
+
+.rate{}
+
+.center-text{}
+
+#ratePerHour{}
+
+#title{}
+
+.profile{}
+
+#pfp{}
+
+p{}
+
+#stars{}
+
+main{}
+
+button{}
+
+button:hover{}
+
+#call{}
+
+.button_container{}
+
+.fa-solid
