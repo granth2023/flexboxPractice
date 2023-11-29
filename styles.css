@@ -7,9 +7,16 @@ body {
     margin: 0;
     height: 100vh;
     font-family: Helvetica;
-    background-color: rgb(255,255,255);
+    background-color: blue;
     color: rgb(80,80,80);
     text-align: center;
+}
+
+.main-container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
@@ -22,6 +29,7 @@ h2 {
 
 h3 {
     font-size: 5vw;
+    padding: 0;
 }
 
 .rating{
@@ -30,7 +38,7 @@ h3 {
 }
 
 #name{ 
-    padding-top: 5vw;
+    padding-top: 0;
 }
 
 .rate {
@@ -54,7 +62,8 @@ h3 {
 }
 
 #title {
-    padding-top: 3vw;
+    padding-top: 0;
+
 }
 
 .profile { 
@@ -63,6 +72,7 @@ h3 {
     flex-direction: column;
     grid-column: span 2;
     background-color: rgb(254, 254, 254);
+    border: red solid 1px;
 }
 
 #pfp {
@@ -84,6 +94,9 @@ p {
 
 main {
     display: grid;
+    width: 50% !important;
+    margin: auto !important;
+    border: solid red 10px;
     height: 100vh;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 2fr 1fr 1fr 0.7fr;
