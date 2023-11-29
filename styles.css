@@ -30,10 +30,13 @@ h3 {
 }
 
 #name{ 
-    padding-top: 5vw:
+    padding-top: 5vw;
 }
 
-.rate{}
+.rate {
+    grid-column: span 2;
+    background-color: rgb(233, 233, 233);
+}
 
 .center-text{}
 
