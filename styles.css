@@ -53,9 +53,11 @@ h3 {
     background-color: rgb(254, 254, 254);
 }
 
-#title{}
+#title {
+    padding-top: 3vw;
+}
 
-.profile{}
+.profile {}
 
 #pfp{}
 
