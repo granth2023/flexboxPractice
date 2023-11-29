@@ -90,7 +90,11 @@ main {
     gap: 0px 0px;
 }
 
-button{}
+button {
+    background-color: rgb(106, 212, 127);
+    width: 50%;
+    border: 0;
+}
 
 button:hover{}
 
