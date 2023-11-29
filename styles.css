@@ -96,10 +96,20 @@ button {
     border: 0;
 }
 
-button:hover{}
+button:hover {
+    background-color: rgb(103, 176, 119);
+}
 
-#call{}
+#call {
+    border-right: 2px;
+}
 
-.button_container{}
+.button_container {
+    grid-column: span 2;
+    display: flex;
+}
 
-.fa-solid
+.fa-solid {
+    scale: 150%;
+
+}
