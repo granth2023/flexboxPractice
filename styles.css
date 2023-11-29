@@ -45,7 +45,13 @@ h3 {
     align-items: center;
 }
 
-#ratePerHour{}
+#ratePerHour {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    grid-column: span 2;
+    background-color: rgb(254, 254, 254);
+}
 
 #title{}
 
